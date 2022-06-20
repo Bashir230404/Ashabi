@@ -1,0 +1,130 @@
+body{
+    background-color: #fdfdfd;
+    background: black;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-position: ;
+    background-attachment: fixed;
+	color:silver;
+}
+#MENU{
+	background:silver;
+	line-height:22px;
+}
+.Search{
+	color:black;
+	background-color:silver;
+	margin-left:300px
+}
+.Search1{
+	background-color:silver;
+	margin-left:20px
+}
+.Menu{
+	font-size:14px;
+	text-decoration:none;
+	display:inline;
+}
+.Menu:hover{
+	background-color:grey;
+}
+/*kondisi biasa*/
+.Menu:link{
+	color:black;
+}
+/*kondisi setelah dikunjungi*/
+.Menu:visited{
+	color:black;
+}
+
+/*kondisi saat mouse berada diatasnya*/
+.Menu:hover{
+	color:black;
+}
+/*sedang diklik*/
+.Menu:active{
+	color:black;
+}
+#judul{
+	line-height:2px;
+	font-size:16px;
+	font-family:sans-serif;
+	color:white;
+	
+}
+#subjudul{
+	line-height:22px;
+	font-size:16px;
+	font-family:sans;
+	color:black;
+	text-align:justify;
+	
+}
+.hari{
+	line-height:0px;
+	font-size:20px;
+	font-family:sans;
+	color:white;
+	text-align:justify;
+	
+}
+.minggu{
+	line-height:2px;
+	font-size:16px;
+	font-family:sans;
+	color:black;
+	text-align:justify;
+	margin-top: 7px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.minggu1{
+	color:white;
+	line-height:22px;
+	font-size:25px;
+	font-family:sans;
+	text-align:justify;
+}
+.minggu1:link{
+	color:white;
+	text-decoration:none;
+}
+.minggu1:hover{
+   color:blue;
+}
+.minggu1{
+	font-size:20px;
+	position:relative;
+	left:15px;
+}
+
+
+.senin{
+	line-height:2px;
+	font-size:15px;
+	font-family:sans;
+	color:black;
+	text-align:justify;
+	margin-top: 7px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.senin1{
+	color:white;
+	line-height:22px;
+	font-size:25px;
+	font-family:sans;
+	text-align:justify;
+}
+.senin1:link{
+	color:white;
+	text-decoration:none;
+}
+.senin1:hover{
+   color:blue;
+}
+.senin1{
+	font-size:17px;
+	position:relative;
+	left:10px;
+}
