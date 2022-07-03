@@ -1,0 +1,25 @@
+body{
+	font-family: 'century-gothic';
+}
+.container{
+	width: 100%;
+}
+.title{ 
+	font-size: 42px;
+}
+.line{
+	background-color: yellow;
+	width: 70px;
+	height: 5px;
+}
+.table{
+	margin-left: 180px;
+	margin-top: 200px;
+}
+.button{
+	background-color: yellow;
+	border: none;
+	padding: 6px 15px;
+	margin-top: 20px;
+
+}

@@ -1,0 +1,14 @@
+.navbar{
+    padding: 20px;
+
+}
+.content{
+    background: gray;
+    height: 400px;
+}
+.header{
+    background: rgb(244, 190, 190);
+}
+.footer{
+    background: silver;
+}
