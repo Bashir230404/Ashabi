@@ -1,0 +1,31 @@
+
+1. SELECT * FROM 'buku' ORDER BY isbn DESC
+2. SELECT * FROM 'buku' ORDER BY judul ASC
+3. SELECT * FROM 'buku' WHERE judul LIKE '%CSS%'
+4. SELECT * FROM 'buku' WHERE judul LIKE '%Laravel%'
+5. SELECT id_penerbit, SUM(qty_stok) as total FROM 'buku' GROUP BY id_penerbit
+6. SELECT id_pengarang, SUM(qty_stok) as total FROM 'buku' GROUP BY id_pengarang
+7. SELECT id_katalog, SUM(qty_stok) as total FROM 'buku' GROUP BY id_katalog
+8. SELECT tahun, SUM(qty_stok) as total FROM 'buku' GROUP BY tahun
+9. SELECT tahun, SUM(qty_stok) as total FROM 'buku' WHERE tahun >= GROUP BY tahun
+10. SELECT tahun, SUM(qty_stok) as total FROM 'buku' GROUP BY tahun ORDER BY tahun ASC
+11. SELECT tahun, SUM(qty_stok) as total FROM 'buku' GROUP BY tahun ORDER BY tahun DESC
+
+
+Tugas
+1.SELECT * FROM `daerah_pembelian` ORDER BY id DESC
+2.SELECT * FROM `daerah_pembelian` ORDER BY daerah_pembelian ASC
+3.SELECT * FROM `daerah_pembelian` WHERE daerah_pembelian LIKE '%karta%'
+4.SELECT * FROM `daerah_pembelian` WHERE daerah_pembelian LIKE '%gor%'
+5.SELECT nama_warna, SUM(qty_stock) AS total FROM `warna` GROUP BY nama_warna
+6.SELECT id, SUM(qty_stock) AS total FROM `warna` GROUP BY id
+7.SELECT jenis_sablon, SUM(harga_sablon) AS total FROM `sablon` GROUP BY jenis_sablon
+8.SELECT tahun, SUM(qty_stock) AS total FROM `warna` GROUP BY tahun
+9.SELECT tahun, SUM(qty_stock) AS total FROM `warna` WHERE tahun >= 2015 GROUP BY tahun
+10.SELECT tahun, SUM(qty_stock) AS total FROM `warna` GROUP BY tahun ORDER BY tahun ASC
+11.SELECT tahun, SUM(qty_stock) AS total FROM `warna` GROUP BY tahun ORDER BY tahun DESC
+12.SELECT tahun, SUM(id) AS total FROM `daerah_pembelian` GROUP BY tahun ORDER BY tahun DESC
+13.SELECT nama_warna, SUM(qty_stock) AS total FROM `warna` GROUP BY nama_warna
+14.SELECT * FROM `warna` ORDER BY nama_warna DESC
+15.SELECT * FROM `warna` ORDER BY nama_warna ASC
+

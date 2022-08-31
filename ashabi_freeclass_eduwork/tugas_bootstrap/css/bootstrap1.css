@@ -1,0 +1,42 @@
+.header{
+    background:#1056BF;
+}
+.Logo{
+    margin-left: 50px;
+}
+
+.konten{
+    margin-top: 150px;
+    color: white;
+}
+.daftar{
+    margin-left: 50px;
+}
+#conten{
+    background: linear-gradient(0.04deg, #359AC1 -31.42%, #1056BF 73.81%);
+}
+.nav-link{
+    margin-left: 30px;
+}
+.konten2{
+    background: #E8F7FF;
+}
+.isa{
+    width: 70%;
+    border-radius: 37px;
+    background: black;
+}
+.keunggulan{
+    font-size: large;
+}
+.syarat{
+    font-size: large;
+}
+.bonus{
+    color: white;
+    font-size: 20px;
+}
+.baner{
+    margin-left: 3px;
+    padding: 50px;
+}
